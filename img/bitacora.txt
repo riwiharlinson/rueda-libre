@@ -1,3 +1,17 @@
 Reto Día 1: 
  1: Repositiorio y página base: Repositortio con la estructura base del proyecto rueda ibre, direccionado al perfil de GitHub.
- 2: Tarifas claras: tablas y rutas relativas: la tabla tarifas añadí el titulo con <caption>, contiene los grupos <thead> y <tbody>, los encabezados de columna los declaré con scope="col" y los tipos de bicicleta como encabezados de fila con scope="row", estructuré la pagina tarifas en 5 secciones; la tabla de tarifas asigne id="tarifas-alquiler" a su sección, la tabla de recorridos asigné id="recorridos-guiados" a su sección. en cada tabla declaré el border = 1; debajo de las tablas agregué la sección "información adicional" dando a conocer al usuario qué incluye las tarifas, los horarios de salida y los implementos a llevar para los recorridos.
+ 2: Tarifas claras: tablas y rutas relativas: la tabla tarifas añadí el titulo con <caption>, contiene los grupos <thead> y <tbody>, 
+    los encabezados de columna los declaré con scope="col" y los tipos de bicicleta
+    como encabezados de fila con scope="row", estructuré la pagina tarifas en 5 secciones;
+    la tabla de tarifas asigne id="tarifas-alquiler" a su sección, la tabla de recorridos
+    asigné id="recorridos-guiados" a su sección. en cada tabla declaré el border = 1;
+    debajo de las tablas agregué la sección "información adicional" dando a conocer 
+    al usuario qué incluye las tarifas, los horarios de salida y los implementos a 
+    llevar para los recorridos. moví el archivo inicio.html hacía la raíz del proyecto,
+    agregué en la pagina tarifas.html e inicio.html el header con la navegación principal conteniendo el logo que direcciona a la pagina de inicio y la navegación principal entre las páginas del proyecto.
+ 3: pagnas navegables desde la menú principal del encabezado, enlaces desde la pagina inicio: 
+    <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="paginas/tarifas.html">Tarifas</a></li>
+                <li><a href="paginas/reserva.html">Reservas</a></li>
+            </ul> 
